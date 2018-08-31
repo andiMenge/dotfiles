@@ -1,0 +1,63 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Monokai",
+    // Controls the font size in pixels.
+    "editor.fontSize": 18,
+    // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+    "editor.tabSize": 2,
+    // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+    "editor.insertSpaces": true,
+    // Configure syntax highlthing for special files
+    "files.associations": {
+      "*.env": "ini",
+      "*.md": "markdown"
+    },
+    // Configure Terminal
+    // The path of the shell that the terminal uses on OS X.
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    // Controls the font size in pixels of the terminal.
+    "terminal.integrated.fontSize": 16,
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#181818",
+        "statusBar.background": "#017937"
+    },
+    "editor.wordWrap": "on",
+    "editor.detectIndentation": false,
+    "window.nativeTabs": true,
+    "explorer.openEditors.visible": 0,
+    "markdown.preview.fontSize": 16,
+    "editor.scrollBeyondLastLine": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    "window.zoomLevel": -2,
+    "terminal.integrated.copyOnSelection": true,
+    "editor.tabCompletion": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.mode.active": "zen",
+    "explorer.confirmDelete": false,
+    "cfnLint.path": "/Users/mengean/Library/Python/2.7/bin/cfn-lint",
+    "terminal.integrated.cursorStyle": "block",
+    "cSpell.userWords": [
+      "customizations",
+      "icmp",
+      "moovel",
+      "routable",
+      "traceroute"
+    ],
+    "cSpell.language": "en",
+    "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "html",
+      "latex",
+      "less",
+      "markdown",
+      "plaintext"
+    ],
+    "breadcrumbs.enabled": true,
+  }
