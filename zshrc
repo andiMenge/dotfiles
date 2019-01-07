@@ -2,12 +2,12 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt beep notify
+setopt beep notify APPEND_HISTORY
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 
-zstyle :compinstall filename '/Users/andi/.zshrc'
+zstyle :compinstall filename '/Users/mengean/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -58,7 +58,7 @@ SPACESHIP_GIT_STATUS_SUFFIX=""
 # GREP_COLORS='mt=37;45'
 
 # PATH
-export PATH=$PATH:/usr/local/bin:/Users/andi/Library/Python/2.7/bin:/Users/andi/repos/aws-deploy/bin:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/andi/go/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/Users/mengean/Library/Python/2.7/bin:/Users/mengean/repos/aws-deploy/bin:~/repos/moovel-scripts:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/mengean/go/bin:~/repos/moovel-scripts/scripts/saml2aws:~/repos/cfn-run/bin
 
 # ZSH completion
 fpath=(/usr/local/share/zsh-completions $fpath)
@@ -71,7 +71,7 @@ alias more='less'
 alias awsp="source _awsp"
 alias gc='git commit'
 alias co='code -r .'
-alias ecr-login='$(aws ecr get-login --no-include-email --region eu-west-1)'
+alias ecr-login='$(aws --profile shared-services ecr get-login --no-include-email --region eu-west-1)'
 
 # ENV Vars
 export EDITOR=vim
@@ -80,7 +80,7 @@ export NVM_DIR="$HOME/.nvm"
 export JIRA_API_TOKEN=$(pass misc/jira-token)
 export NPM_TOKEN=$(pass misc/moovel-npm-readonly-token)
 export LANG=de_DE.UTF-8
-export LC_ALL=en_US
+export LC_ALL=en_US.UTF-8
 export WORDCHARS='*?_-.[]~=&;&%^(){}<>' # enable to jump between words that are delimited by a slash
 
 # NVM
@@ -93,12 +93,12 @@ export WORDCHARS='*?_-.[]~=&;&%^(){}<>' # enable to jump between words that are 
 #eval `keychain --eval --agents ssh id_rsa`
 
 # Autocompletion
-source /Users/andi/Library/Python/2.7/bin/aws_zsh_completer.sh
-source /Users/andi/repos/moovel-scripts/support/zsh/moovel-completion.zsh
+source /usr/local/bin/aws_zsh_completer.sh
+source /Users/mengean/repos/moovel-scripts/support/zsh/moovel-completion.zsh
 
 # Auto Suggestion
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # ZSH syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
