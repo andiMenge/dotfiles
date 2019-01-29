@@ -7,7 +7,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 
-zstyle :compinstall filename '/Users/mengean/.zshrc'
+zstyle :compinstall filename '/Users/andi/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -58,7 +58,7 @@ SPACESHIP_GIT_STATUS_SUFFIX=""
 # GREP_COLORS='mt=37;45'
 
 # PATH
-export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/Users/mengean/Library/Python/2.7/bin:/Users/mengean/repos/aws-deploy/bin:~/repos/moovel-scripts:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/mengean/go/bin:~/repos/moovel-scripts/scripts/saml2aws:~/repos/cfn-run/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/Users/andi/Library/Python/2.7/bin:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/andi/go/bin
 
 # ZSH completion
 fpath=(/usr/local/share/zsh-completions $fpath)
@@ -71,30 +71,20 @@ alias more='less'
 alias awsp="source _awsp"
 alias gc='git commit'
 alias co='code -r .'
-alias ecr-login='$(aws --profile shared-services ecr get-login --no-include-email --region eu-west-1)'
 
 # ENV Vars
 export EDITOR=vim
-export AWS_PROFILE=dev
-export NVM_DIR="$HOME/.nvm"
-export JIRA_API_TOKEN=$(pass misc/jira-token)
-export NPM_TOKEN=$(pass misc/moovel-npm-readonly-token)
 export LANG=de_DE.UTF-8
 export LC_ALL=en_US.UTF-8
 export WORDCHARS='*?_-.[]~=&;&%^(){}<>' # enable to jump between words that are delimited by a slash
-
-# NVM
-. "/usr/local/opt/nvm/nvm.sh"
 
 # Z
 . /usr/local/etc/profile.d/z.sh
 
 # Start the ssh-agent frontend
-#eval `keychain --eval --agents ssh id_rsa`
+# eval `keychain --eval --agents ssh id_rsa`
 
 # Autocompletion
-source /usr/local/bin/aws_zsh_completer.sh
-source /Users/mengean/repos/moovel-scripts/support/zsh/moovel-completion.zsh
 
 # Auto Suggestion
 #source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
