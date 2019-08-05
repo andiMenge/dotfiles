@@ -4,7 +4,7 @@
     "editor.formatOnPaste": true,
     "workbench.colorTheme": "Monokai Dimmed",
     // Controls the font size in pixels.
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
     "editor.tabSize": 2,
     // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
@@ -16,7 +16,7 @@
     },
     // Configure Terminal
     // The path of the shell that the terminal uses on OS X.
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     // Controls the font size in pixels of the terminal.
     "terminal.integrated.fontSize": 14,
     "workbench.startupEditor": "none",
@@ -31,10 +31,10 @@
     "markdown.preview.fontSize": 16,
     "editor.scrollBeyondLastLine": false,
     "terminal.integrated.fontWeightBold": "normal",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "terminal.integrated.copyOnSelection": true,
     "editor.tabCompletion": true,
-    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnEnter": "off",
     "gitlens.advanced.messages": {
       "suppressShowKeyBindingsNotice": true
     },
@@ -42,7 +42,7 @@
     "gitlens.mode.active": "zen",
     "explorer.confirmDelete": false,
     "cfnLint.path": "/usr/local/bin/cfn-lint",
-    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorStyle": "underline",
     "cSpell.userWords": [
       "customizations",
       "icmp",
@@ -60,6 +60,22 @@
       "plaintext"
     ],
     "breadcrumbs.enabled": true,
-    "files.autoSave": "afterDelay",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "ubuntu mono",
+    "terminal.integrated.cursorBlinking": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    
+  },
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
   }
