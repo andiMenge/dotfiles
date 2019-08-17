@@ -1,4 +1,7 @@
-" Andreas Menge
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+Plug 'itchyny/lightline.vim'
+call plug#end()
 " Colors {{{
 syntax enable           " enable syntax processing
 colorscheme molokai
@@ -14,3 +17,6 @@ filetype plugin on
 set autoindent
 set backspace=2 " make backspace work like most other apps
 " }}}
+
+" Misc
+set laststatus=2
