@@ -58,7 +58,7 @@ SPACESHIP_GIT_STATUS_SUFFIX=""
 # GREP_COLORS='mt=37;45'
 
 # PATH
-export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/Users/andi/Library/Python/2.7/bin:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/andi/go/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:/Users/andi/Library/Python/2.7/bin:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Users/andi/go/bin
 
 # ZSH completion
 fpath=(/usr/local/share/zsh-completions $fpath)
