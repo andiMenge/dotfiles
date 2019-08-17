@@ -78,4 +78,5 @@
   "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "explorer.autoReveal": false,
   }
