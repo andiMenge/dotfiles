@@ -18,6 +18,7 @@ zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' # case-insensitive matching only if no case-sensitive match was found.
+zstyle ':completion:*:*:make:*' tag-order 'targets'
 setopt correctall
 
 # Set Spaceship ZSH as a prompt
