@@ -2,7 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt beep notify APPEND_HISTORY
+setopt beep notify INC_APPEND_HISTORY
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
