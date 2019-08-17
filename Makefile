@@ -1,4 +1,4 @@
-.PHONY: zshrc
+.PHONY: zshrc httpie
 
 zshrc:
 	@cp zshrc ~/.zshrc
@@ -8,6 +8,10 @@ vscode:
 
 vimrc:
 	@/bin/ln -s ~/repos/dotfiles/vimrc ~/.vimrc
+
+httpie:
+	@mkdir ~/.httpie
+	@/bin/ln -s ~/repos/dotfiles/httpie/config.json ~/.httpie/config.json
 
 install:
 	npm install -g spaceship-prompt
