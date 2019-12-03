@@ -1,71 +1,69 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
-    "workbench.colorTheme": "Monokai Dimmed",
-    // Controls the font size in pixels.
-    "editor.fontSize": 15,
-    // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
-    "editor.tabSize": 2,
-    // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
-    "editor.insertSpaces": true,
-    // Configure syntax highlthing for special files
-    "files.associations": {
-      "*.env": "ini",
-      "*.md": "markdown"
-    },
-    // Configure Terminal
-    // The path of the shell that the terminal uses on OS X.
-    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-    // Controls the font size in pixels of the terminal.
-    "terminal.integrated.fontSize": 14,
-    "workbench.startupEditor": "none",
-    "workbench.colorCustomizations": {
-        "terminal.background": "#181818",
-        "statusBar.background": "#017937"
-    },
-    "editor.wordWrap": "on",
-    "editor.detectIndentation": false,
-    "window.nativeTabs": true,
-    "explorer.openEditors.visible": 0,
-    "markdown.preview.fontSize": 16,
-    "editor.scrollBeyondLastLine": false,
-    "terminal.integrated.fontWeightBold": "normal",
-    "window.zoomLevel": 0,
-    "terminal.integrated.copyOnSelection": true,
-    "editor.tabCompletion": true,
-    "editor.acceptSuggestionOnEnter": "off",
-    "gitlens.advanced.messages": {
-      "suppressShowKeyBindingsNotice": true
-    },
-    "explorer.confirmDragAndDrop": false,
-    "gitlens.mode.active": "zen",
-    "explorer.confirmDelete": false,
-    "cfnLint.path": "/usr/local/bin/cfn-lint",
-    "terminal.integrated.cursorStyle": "underline",
-    "cSpell.userWords": [
-      "customizations",
-      "icmp",
-      "moovel",
-      "routable",
-      "traceroute"
-    ],
-    "cSpell.language": "en",
-    "cSpell.enabledLanguageIds": [
-      "asciidoc",
-      "html",
-      "latex",
-      "less",
-      "markdown",
-      "plaintext"
-    ],
-    "breadcrumbs.enabled": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": "ubuntu mono",
-    "terminal.integrated.cursorBlinking": true,
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Monokai Dimmed",
+  // Controls the font size in pixels.
+  "editor.fontSize": 15,
+  // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+  // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.insertSpaces": true,
+  // Configure syntax highlthing for special files
+  "files.associations": {
+    "*.env": "ini",
+    "*.md": "markdown"
+  },
+  // Configure Terminal
+  // The path of the shell that the terminal uses on OS X.
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  // Controls the font size in pixels of the terminal.
+  "terminal.integrated.fontSize": 14,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#181818",
+    "statusBar.background": "#017937"
+  },
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "window.nativeTabs": true,
+  "explorer.openEditors.visible": 0,
+  "markdown.preview.fontSize": 16,
+  "editor.scrollBeyondLastLine": false,
+  "terminal.integrated.fontWeightBold": "normal",
+  "window.zoomLevel": 0,
+  "terminal.integrated.copyOnSelection": true,
+  "editor.tabCompletion": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "cfnLint.path": "/usr/local/bin/cfn-lint",
+  "terminal.integrated.cursorStyle": "underline",
+  "cSpell.userWords": [
+    "customizations",
+    "icmp",
+    "moovel",
+    "routable",
+    "traceroute"
+  ],
+  "cSpell.language": "en",
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "html",
+    "latex",
+    "less",
+    "markdown",
+    "plaintext"
+  ],
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "ubuntu mono",
+  "terminal.integrated.cursorBlinking": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
   "[json]": {
@@ -75,8 +73,29 @@
   "files.autoSave": "onFocusChange",
   "eslint.run": "onSave",
   "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
   "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "explorer.autoReveal": false,
-  }
+  "go.buildOnSave": "off",
+  "go.lintOnSave": "file",
+  "go.autocompleteUnimportedPackages": true,
+  "go.useLanguageServer": true,
+  "extensions.ignoreRecommendations": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.untrackedChanges": "separate",
+  "gitlens.mode.active": "zen",
+  "latex-workshop.view.pdf.viewer": "external",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+}
