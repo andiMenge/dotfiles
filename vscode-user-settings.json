@@ -33,31 +33,14 @@
   "terminal.integrated.fontWeightBold": "normal",
   "window.zoomLevel": 0,
   "terminal.integrated.copyOnSelection": true,
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": "on",
   "editor.acceptSuggestionOnEnter": "off",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "cfnLint.path": "/usr/local/bin/cfn-lint",
   "terminal.integrated.cursorStyle": "underline",
-  "cSpell.userWords": [
-    "customizations",
-    "icmp",
-    "moovel",
-    "routable",
-    "traceroute"
-  ],
-  "cSpell.language": "en",
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "html",
-    "latex",
-    "less",
-    "markdown",
-    "plaintext"
-  ],
   "breadcrumbs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.fontFamily": "ubuntu mono",
@@ -95,7 +78,17 @@
   "gitlens.hovers.currentLine.over": "line",
   "git.untrackedChanges": "separate",
   "gitlens.mode.active": "zen",
-  "latex-workshop.view.pdf.viewer": "external",
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
+  "gitlens.views.lineHistory.enabled": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.views.fileHistory.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
 }
