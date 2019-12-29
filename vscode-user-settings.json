@@ -55,16 +55,9 @@
   "editor.formatOnType": true,
   "files.autoSave": "onFocusChange",
   "eslint.run": "onSave",
-  "eslint.autoFixOnSave": true,
   "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    }
+    "javascript",
+    "typescript"
   ],
   "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
