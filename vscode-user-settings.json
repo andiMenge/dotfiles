@@ -3,8 +3,6 @@
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
   "workbench.colorTheme": "Monokai Dimmed",
-  // Controls the font size in pixels.
-  "editor.fontSize": 15,
   // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
   "editor.tabSize": 2,
   // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
@@ -17,8 +15,6 @@
   // Configure Terminal
   // The path of the shell that the terminal uses on OS X.
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  // Controls the font size in pixels of the terminal.
-  "terminal.integrated.fontSize": 14,
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
     "terminal.background": "#181818",
@@ -43,7 +39,7 @@
   "terminal.integrated.cursorStyle": "underline",
   "breadcrumbs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "ubuntu mono",
+  "editor.fontFamily": "jetbrains mono",
   "terminal.integrated.cursorBlinking": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -84,4 +80,6 @@
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
 }
