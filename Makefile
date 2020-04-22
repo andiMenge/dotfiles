@@ -1,4 +1,4 @@
-.PHONY: zshrc httpie
+.PHONY: zshrc httpie vimrc
 
 zshrc:
 	@cp zshrc ~/.zshrc
