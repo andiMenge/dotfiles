@@ -1,5 +1,5 @@
 {
-  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.multiCursorModifier": "cz repostrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
   "workbench.colorTheme": "Monokai Dimmed",
@@ -14,11 +14,11 @@
   },
   // Configure Terminal
   // The path of the shell that the terminal uses on OS X.
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
     "terminal.background": "#181818",
-    "statusBar.background": "#017937"
+    "statusBar.background": "#198348"
   },
   "editor.wordWrap": "on",
   "editor.detectIndentation": false,
@@ -65,7 +65,6 @@
   "go.useLanguageServer": true,
   "extensions.ignoreRecommendations": false,
   "gitlens.hovers.currentLine.over": "line",
-  "git.untrackedChanges": "separate",
   "gitlens.mode.active": "zen",
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
@@ -80,6 +79,12 @@
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "terminal.integrated.fontSize": 13,
+  "prettier.singleQuote": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "timeline.showView": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "eslint.alwaysShowStatus": true,
+  "typescript.suggest.completeFunctionCalls": true
 }
