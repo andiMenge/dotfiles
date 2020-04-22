@@ -4,6 +4,8 @@
 <dict>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -106,9 +108,13 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>366 310 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>346 122 810 492 0 0 1440 877 </string>
+	<string>539 307 710 367 0 0 1792 1097 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 119 810 442 0 0 1440 877 </string>
+	<key>NeverWarnAboutShortLivedSessions_88DC827A-C065-4176-9B7F-DA5B798144CE</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_88DC827A-C065-4176-9B7F-DA5B798144CE_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -784,13 +790,14 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.4</string>
+		<string>3.2.9</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
+		<string>3.3.9</string>
 		<string>3.3.0</string>
 		<string>3.3.2</string>
-		<string>3.2.9</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -813,7 +820,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>508797475.64113402</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>37</integer>
+	<integer>38</integer>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -1586,7 +1593,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-27T15:33:37Z</date>
+	<date>2020-03-31T22:22:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -1620,6 +1627,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.9</string>
 </dict>
 </plist>
