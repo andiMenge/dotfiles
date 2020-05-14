@@ -13,6 +13,9 @@ httpie:
 	@mkdir ~/.httpie
 	@/bin/ln -s ~/repos/dotfiles/httpie/config.json ~/.httpie/config.json
 
+npm:
+	@/bin/ln -s ~/repos/dotfiles/npmrc ~/.npmrc
+
 install:
 	npm install -g spaceship-prompt
 	brew install zsh-syntax-highlighting \
