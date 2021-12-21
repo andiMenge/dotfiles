@@ -22,7 +22,6 @@
   },
   "editor.wordWrap": "on",
   "editor.detectIndentation": false,
-  "window.nativeTabs": true,
   "explorer.openEditors.visible": 0,
   "markdown.preview.fontSize": 16,
   "editor.scrollBeyondLastLine": false,
@@ -50,11 +49,7 @@
   },
   "editor.formatOnType": true,
   "files.autoSave": "onFocusChange",
-  "eslint.run": "onSave",
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "editor.cursorBlinking": "expand",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -67,7 +62,7 @@
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.mode.active": "zen",
   "javascript.validate.enable": false,
-  "typescript.validate.enable": false,
+  "typescript.validate.enable": true,
   "gitlens.views.lineHistory.enabled": false,
   "gitlens.views.search.enabled": false,
   "gitlens.views.fileHistory.enabled": false,
@@ -86,5 +81,32 @@
   "timeline.showView": true,
   "javascript.suggest.completeFunctionCalls": true,
   "eslint.alwaysShowStatus": true,
-  "typescript.suggest.completeFunctionCalls": true
+  "typescript.suggest.completeFunctionCalls": true,
+  "[typescriptreact]": {},
+  "typescript.surveys.enabled": false,
+  "peacock.affectActivityBar": false,
+  "window.nativeTabs": true,
+  "peacock.affectTitleBar": false,
+  "peacock.showColorInStatusBar": false,
+  "github-actions.org-features": true,
+  "github-actions.workflows.pinned.workflows": [],
+  "gitlens.views.compare.files.layout": "list",
+  "jest.debugMode": true,
+  "jest.pathToJest": "",
+  "jest.disabledWorkspaceFolders": [
+    "galaxy-service-v2"
+  ],
+  "debug.javascript.autoAttachFilter": "disabled",
+  "editor.renderWhitespace": "none",
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.pythonPath": "",
+  "python.autoComplete.addBrackets": true,
+  "python.analysis.completeFunctionParens": true,
+  "jupyter.askForKernelRestart": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "git.suggestSmartCommit": false
 }
