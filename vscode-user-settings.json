@@ -26,7 +26,6 @@
   "markdown.preview.fontSize": 16,
   "editor.scrollBeyondLastLine": false,
   "terminal.integrated.fontWeightBold": "normal",
-  "window.zoomLevel": 0,
   "terminal.integrated.copyOnSelection": true,
   "editor.tabCompletion": "on",
   "editor.acceptSuggestionOnEnter": "off",
@@ -108,5 +107,13 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "workbench.editor.untitled.hint": "hidden",
-  "git.suggestSmartCommit": false
+  "git.suggestSmartCommit": false,
+  "python.formatting.autopep8Args": [
+    "--indent-size=2",
+    "--max-line-length=250",
+    "--experimental"
+  ],
+  "python.formatting.provider": "autopep8",
+  "python.analysis.typeCheckingMode": "basic",
+  "terminal.integrated.tabs.enabled": false
 }
